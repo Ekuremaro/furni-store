@@ -48,5 +48,9 @@
   },
   "devDependencies": {
     "netlify-cli": "^2.37.0"
-  }
+  },
+  "peerDependencies": {
+   "react": ">=16.8.0",
+   "react-dom": ">=16.8.0"
+}
 }

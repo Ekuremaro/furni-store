@@ -23,7 +23,7 @@ function App() {
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/checkout" component={Checkout} />
         <Route exact path="/products" component={Products} />
-        <Route exact path="/products/:id" children={SingleProduct} />
+        <Route exact path="/products/:id" children={<SingleProduct />} />
         <Route exact path="*" component={Error} />
       </Switch>
       <Footer />
